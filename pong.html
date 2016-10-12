@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <link rel="stylesheet" type="text/css" href="theme/style.css">
+        <title>Pong</title>
+    </head>
+    <body onload="initialiser()">
+        <header>
+            <nav><ul>
+                <a href="./pong.html"><li id="nouvellePartie" onclick="partie.nouvellePartie()">Nouvelle partie</li></a>
+                <a href="#"><li id="pause" onclick="partie.pause()">Pause</li></a>
+            </ul></nav>
+            <h1>Pong revisité</h1>
+            <div class="score">
+                <div id="joueur0">0</div>
+                <div>:</div>
+                <div id="joueur1">0</div>
+            </div>
+        </header>
+        <section>
+            <div id="airDeJeu">
+            </div>
+        </section>
+        <script type="text/javascript" src="theme/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="theme/script.js"></script>
+
+    </body>
+</html>
